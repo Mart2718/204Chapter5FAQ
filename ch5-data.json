@@ -1,0 +1,208 @@
+{
+  "section": "5.1-5.2",
+  "title": "The Foundations of Number Theory",
+  "learningObjective": "Section 5.1: Identify prime and composite numbers, apply divisibility tests, and use prime factorization to analyze the structure of whole numbers. Section 5.2: Find the Greatest Common Factor (GCF) and Least Common Multiple (LCM) of two or more numbers using multiple methods, including Set Intersection, Prime Factorization, and the Euclidean Algorithm, and apply these concepts to real-world problem solving.",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What is the difference between factors and multiples, and how can teachers help students remember which is which?",
+      "answer": "<p><strong>Factors</strong> are numbers that divide <em>into</em> a given number evenly — they are always smaller than or equal to the number. For example, the factors of 12 are 1, 2, 3, 4, 6, and 12.</p><p><strong>Multiples</strong> are what you <em>get</em> when you multiply a number by the counting numbers (1, 2, 3, …). Multiples are always greater than or equal to the original number. The multiples of 3 are 3, 6, 9, 12, 15, …</p><div class=\"example-box\"><div class=\"label\">Memory Anchor</div><p class=\"math-line\"><strong>Factors are fewer</strong> — they are smaller, limited, and fit <em>inside</em> the number.</p><p class=\"math-line\"><strong>Multiples are many</strong> — they go on forever, growing bigger and bigger.</p></div><p>In your textbook, the relationship is stated precisely: if \\(a\\) divides \\(b\\) (written \\(a \\mid b\\)), then \\(a\\) is a <em>factor</em> of \\(b\\) and \\(b\\) is a <em>multiple</em> of \\(a\\). These two facts are always paired — you cannot have one without the other.</p>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "How can visual models like arrays or area models help students understand factors and factor pairs?",
+      "answer": "<p>Arrays are one of the most powerful tools for making factors visible and concrete. When students build or draw rectangular arrays, they are literally <em>seeing</em> multiplication and division as the same relationship expressed two ways.</p><p>For example, 12 tiles can be arranged as \\(1 \\times 12\\), \\(2 \\times 6\\), or \\(3 \\times 4\\). Each arrangement reveals a <strong>factor pair</strong> of 12.</p><div class=\"example-box\"><div class=\"label\">Why This Matters Pedagogically</div><p class=\"math-line\">Arrays connect factors to <strong>area</strong> — a concept students use throughout elementary and middle school.</p><p class=\"math-line\"><strong>Square numbers</strong> (like \\(9 = 3 \\times 3\\)) make a perfect square array, which is why they have an <em>odd</em> number of factors.</p></div><p><strong>Classroom move:</strong> Give students grid paper and ask \"How many different rectangles can you make with 18 squares?\" This low-floor exploration invites discovery rather than demanding recall — exactly the Wonder, Play, Grow spirit of your textbook.</p>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "What are effective strategies for teaching divisibility rules, and why do these rules actually work?",
+      "answer": "<p>Your textbook presents divisibility rules not as tricks to memorize, but as tools rooted in the structure of our <strong>base-ten number system</strong>. Understanding <em>why</em> the rules work is what distinguishes a teacher from someone who merely executes procedures.</p><div class=\"example-box\"><div class=\"label\">Key Rules and Their Conceptual Grounding</div><p class=\"math-line\"><strong>Divisible by 2</strong> if the last digit is even — all higher place values (10, 100, …) are already divisible by 2; only the ones digit matters.</p><p class=\"math-line\"><strong>Divisible by 3</strong> if the digit sum is divisible by 3 — each power of 10 leaves remainder 1 when divided by 3, so the number's remainder equals its digit sum's remainder.</p><p class=\"math-line\"><strong>Divisible by 5</strong> if the last digit is 0 or 5 — same base-ten logic as the rule for 2.</p><p class=\"math-line\"><strong>Divisible by 6</strong> if divisible by both 2 and 3 — because \\(6 = 2 \\times 3\\) and 2 and 3 are relatively prime.</p><p class=\"math-line\"><strong>Divisible by 9</strong> if the digit sum is divisible by 9 — same reasoning as the rule for 3.</p></div><p><strong>Teaching strategy:</strong> Rather than presenting all rules at once, let students <em>discover</em> the pattern — \"What do all multiples of 5 have in common at the end?\" Let students construct the rule before you confirm it.</p>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "How can we help students understand prime and composite numbers conceptually, not just as definitions to memorize?",
+      "answer": "<p>Your textbook frames this beautifully through the <strong>Sieve of Eratosthenes</strong> — an ancient method that lets students <em>discover</em> primes through elimination rather than by checking definitions.</p><div class=\"example-box\"><div class=\"label\">Conceptual Definitions</div><p class=\"math-line\">A <strong>prime number</strong> has exactly two factors: 1 and itself. It can only be arranged as a single-row rectangle — there is only one way to tile it.</p><p class=\"math-line\">A <strong>composite number</strong> has more than two factors and can be arranged into multiple different rectangles.</p><p class=\"math-line\"><strong>1 is neither prime nor composite</strong> — it has only one factor (itself), failing the definition of prime. This exclusion protects the Fundamental Theorem of Arithmetic (see Q9).</p></div><p><strong>Classroom move:</strong> Ask students to build tile arrays for numbers 1–17 (the Wonder, Play, Grow activity in Section 5.1). Numbers with only one possible rectangle are prime; numbers with multiple options are composite. This makes the distinction physical and visible before it becomes definitional.</p>"
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "What is the significance of prime factorization, and how does it connect to other mathematical concepts?",
+      "answer": "<p>Prime factorization is the mathematical equivalent of breaking a compound down into its pure elements. The <strong>Fundamental Theorem of Arithmetic</strong> guarantees that every whole number greater than 1 can be written as a product of primes in exactly one way (up to order). The primes are the \"atoms\" of the whole numbers.</p><div class=\"example-box\"><div class=\"label\">Why This Matters for Teachers</div><p class=\"math-line\">Prime factorization is the engine behind <strong>GCF and LCM</strong> calculations (Section 5.2).</p><p class=\"math-line\">It is essential for <strong>simplifying fractions</strong> — understanding that \\(\\tfrac{12}{18}\\) simplifies because both share common prime factors is more conceptually rich than cross-canceling mechanically.</p><p class=\"math-line\">It previews <strong>algebraic factoring</strong> — students who understand number factorization are better prepared for factoring polynomials later.</p></div><p><strong>Two methods in your textbook:</strong> <em>Factor trees</em> (visual branching diagrams) and <em>successive division</em> (dividing repeatedly by the smallest prime). Both always produce the same result — reinforcing that prime factorization is unique.</p>"
+    },
+    {
+      "id": "faq-6",
+      "category": "conceptual",
+      "question": "How can we teach GCF and LCM in ways that make sense to students?",
+      "answer": "<p>The key insight is to <strong>anchor these procedures in real situations before introducing algorithms</strong>. Your textbook's Wonder, Play, Grow scenarios do this perfectly:</p><div class=\"example-box\"><div class=\"label\">Two Grounding Scenarios</div><p class=\"math-line\"><strong>LCM:</strong> Two buses arrive at a station — one every 12 minutes, another every 15 minutes. When will they next arrive together? → Students naturally list multiples until they find the first match.</p><p class=\"math-line\"><strong>GCF:</strong> You're tiling an 8 × 12 foot floor with square tiles, no cutting. What's the largest tile that works? → Students naturally look for the largest number that divides both 8 and 12.</p></div><div class=\"example-box\"><div class=\"label\">The Elegant Relationship</div><p class=\"math-line\">For any two whole numbers \\(a\\) and \\(b\\):</p><p class=\"math-line\">\\[ \\text{GCF}(a,b) \\times \\text{LCM}(a,b) = a \\times b \\]</p><p class=\"math-line\">Once students see this, GCF and LCM are two sides of the same coin — not separate calculations.</p></div><p><strong>Visual tool:</strong> Venn diagrams of prime factors — shared primes go in the overlap (→ GCF), all primes fill the full union (→ LCM).</p>"
+    },
+    {
+      "id": "faq-7",
+      "category": "conceptual",
+      "question": "What are practical, real-world applications of factors, multiples, and divisibility?",
+      "answer": "<p>Number theory is hiding everywhere in daily life. Here are applications that resonate across grade levels:</p><ul><li><strong>Scheduling and timing:</strong> When will two events coincide again? (bus schedules, practice rotations) → <em>LCM</em></li><li><strong>Tiling and packaging:</strong> What's the largest equal-sized unit that fits two different measurements without leftover? → <em>GCF</em></li><li><strong>Fair sharing:</strong> How do you divide 36 students into equal groups? → <em>Factors of 36</em></li><li><strong>Music:</strong> A 3-beat and 4-beat rhythmic pattern sync every 12 beats → \\(\\text{LCM}(3,4) = 12\\)</li><li><strong>Cryptography:</strong> RSA encryption — which secures every online transaction — relies entirely on the difficulty of factoring very large numbers into their prime factors.</li></ul><p>For elementary teachers specifically: divisibility rules surface constantly in students' reasoning about fractions, equal groups, and remainders. Helping children <em>see</em> these connections builds number sense that is the foundation of mathematical confidence.</p>"
+    },
+    {
+      "id": "faq-8",
+      "category": "conceptual",
+      "question": "How can we help students develop number sense to mentally determine if a number is divisible by another?",
+      "answer": "<p>Your textbook is explicit that divisibility rules exist to develop <em>mathematical thinking</em>, not to replace it. The goal is for students to internalize number relationships so deeply that divisibility becomes intuitive.</p><div class=\"example-box\"><div class=\"label\">Five Strategies</div><p class=\"math-line\">1. <strong>Start with patterns, not rules.</strong> Give students a list of multiples of 3 and ask \"what do you notice?\" before explaining why.</p><p class=\"math-line\">2. <strong>Use known multiplication facts.</strong> If \\(7 \\times 8 = 56\\), then 7 and 8 are both factors of 56 — no algorithm needed.</p><p class=\"math-line\">3. <strong>Build benchmark awareness.</strong> Students who know multiples of 6 can instantly check if 54 is divisible: \\(54 \\div 6 = 9\\). ✓</p><p class=\"math-line\">4. <strong>Highlight the \"why\" behind each rule.</strong> Base-ten reasoning transforms rules from shortcuts into meaningful properties of our number system.</p><p class=\"math-line\">5. <strong>Encourage two-second mental checks.</strong> \"Is 732 divisible by 4? Last two digits are 32, and \\(32 \\div 4 = 8\\) — yes.\" That's mathematical fluency.</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "Why is 1 not considered a prime number?",
+      "answer": "<p>This deserves a thoughtful answer — not just \"because the definition says so.\"</p><p>The reason 1 is excluded from the primes is to protect the <strong>Fundamental Theorem of Arithmetic</strong>: the guarantee that every whole number has a <em>unique</em> prime factorization.</p><div class=\"example-box\"><div class=\"label\">Think About It</div><p class=\"math-line\">If 1 were prime, then 12 could be written as \\(2^2 \\times 3\\), or \\(1 \\times 2^2 \\times 3\\), or \\(1 \\times 1 \\times 2^2 \\times 3\\) — infinitely many \"different\" factorizations. The uniqueness that makes the theorem powerful would collapse.</p></div><p>The number 1 has exactly <em>one</em> factor (itself), not two — so it does not meet the definition of prime, which requires exactly two distinct factors. The exclusion of 1 is a deliberate mathematical decision that preserves the elegant structure of the whole number system.</p>"
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I know when to use GCF versus LCM in a word problem?",
+      "answer": "<p>This is a real struggle for students. A useful heuristic:</p><div class=\"example-box\"><div class=\"label\">Decision Guide</div><p class=\"math-line\">Splitting, sharing, or dividing into equal groups; finding the largest equal unit; simplifying fractions → <strong>GCF</strong></p><p class=\"math-line\">Combining, repeating, or finding when two events coincide; scaling up to a common quantity → <strong>LCM</strong></p></div><div class=\"example-box\"><div class=\"label\">Key Question to Ask</div><p class=\"math-line\">Am I looking for the <em>largest</em> something that fits evenly? → <strong>GCF</strong></p><p class=\"math-line\">Am I looking for the <em>smallest</em> something that works for both? → <strong>LCM</strong></p></div><p>Revisit the textbook's Wonder, Play, Grow scenarios: the tiling problem asks \"what's the <em>largest</em> equal tile?\" (GCF), while the bus problem asks \"what's the <em>smallest</em> common moment?\" (LCM).</p>"
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "What is the Euclidean Algorithm, and what is the most common mistake people make with it?",
+      "answer": "<p>The Euclidean Algorithm is an efficient ancient method for finding the GCF of two numbers — especially useful when the numbers are large enough that listing all factors is impractical.</p><p><strong>The core idea:</strong> \\(\\text{GCF}(a, b) = \\text{GCF}(b, \\text{remainder of } a \\div b)\\). Keep replacing until the remainder reaches 0. The last <em>nonzero</em> remainder is the GCF.</p><div class=\"example-box\"><div class=\"label\">Example: Find GCF(546, 390)</div><p class=\"math-line\">\\(546 \\div 390 = 1\\) remainder \\(156\\) → GCF(390, 156)</p><p class=\"math-line\">\\(390 \\div 156 = 2\\) remainder \\(78\\) → GCF(156, 78)</p><p class=\"math-line\">\\(156 \\div 78 = 2\\) remainder \\(0\\) → GCF = <strong>78</strong></p></div><div class=\"example-box\"><div class=\"label\">⚠️ Most Common Mistake</div><p class=\"math-line\">On the final step, students put the <em>quotient</em> (2) in the parentheses instead of the <em>remainder</em> (0). The GCF is the <strong>divisor</strong> when the remainder hits zero — not the quotient. Always check your answer!</p></div>"
+    },
+    {
+      "id": "faq-12",
+      "category": "sticking-points",
+      "question": "What does it mean for two numbers to be \"relatively prime,\" and why does it matter?",
+      "answer": "<p>Two numbers are <strong>relatively prime</strong> (also called <em>coprime</em>) if their GCF is 1 — they share no common factors other than 1. Neither number needs to be prime itself.</p><div class=\"example-box\"><div class=\"label\">Examples</div><p class=\"math-line\">8 and 9 are relatively prime: GCF = 1 ✅ (neither is prime)</p><p class=\"math-line\">4 and 15 are relatively prime: GCF = 1 ✅</p><p class=\"math-line\">6 and 9 are <em>not</em> relatively prime: GCF = 3 ❌</p></div><p><strong>Why this matters for fractions:</strong> A fraction \\(\\tfrac{a}{b}\\) is in <em>lowest terms</em> if and only if \\(a\\) and \\(b\\) are relatively prime. Recognizing coprime pairs is a fast way to confirm a fraction is fully simplified — a skill future teachers use constantly.</p>"
+    },
+    {
+      "id": "faq-13",
+      "category": "sticking-points",
+      "question": "Is there a way to predict how many factors a number has from its prime factorization?",
+      "answer": "<p>Yes — your textbook includes an elegant theorem for this. If a number \\(n\\) has the prime factorization:</p><p>\\[ n = p_1^{n_1} \\times p_2^{n_2} \\times \\cdots \\times p_m^{n_m} \\]</p><p>Then the total number of factors of \\(n\\) is:</p><p>\\[ (n_1 + 1)(n_2 + 1) \\cdots (n_m + 1) \\]</p><div class=\"example-box\"><div class=\"label\">Example: How many factors does 144 have?</div><p class=\"math-line\">\\(144 = 2^4 \\times 3^2\\)</p><p class=\"math-line\">Number of factors: \\((4+1)(2+1) = 5 \\times 3 = 15\\)</p></div><div class=\"example-box\"><div class=\"label\">A Beautiful Pattern</div><p class=\"math-line\">Square numbers always have an <em>odd</em> number of factors — because one exponent pair can't be split. This is also why only square numbers produce a perfectly square tile array in the Wonder, Play, Grow activity!</p></div>"
+    },
+    {
+      "id": "faq-14",
+      "category": "connections",
+      "question": "What is the Sieve of Eratosthenes, and how is it a powerful teaching tool?",
+      "answer": "<p>The <strong>Sieve of Eratosthenes</strong> is an ancient Greek method for finding all prime numbers up to a given value. Students start with a grid of numbers (typically 1–100), cross out 1, then cross out all multiples of 2 (except 2 itself), then all multiples of 3, then 5, and so on. Whatever survives uncrossed is prime.</p><div class=\"example-box\"><div class=\"label\">Why It's Powerful as a Teaching Tool</div><p class=\"math-line\">It is a <em>discovery activity</em> — students find the primes rather than being told them.</p><p class=\"math-line\">It builds pattern recognition around multiples.</p><p class=\"math-line\">It produces a visual artifact students can study and reference.</p><p class=\"math-line\">It naturally raises deeper questions: <em>\"Why do we only need to check up to the square root?\"</em> — a beautiful entry point for mathematical inquiry.</p></div><p>Your textbook connects the Sieve to SLO 5.1 and to the broader goal of building number sense through exploration rather than passive reception of definitions.</p>"
+    },
+    {
+      "id": "faq-15",
+      "category": "connections",
+      "question": "How does number theory in Chapter 5 connect to fractions in Chapter 6?",
+      "answer": "<p>This is a critical bridge question. Every fraction skill involving equivalence, simplification, and common denominators is rooted directly in number theory:</p><div class=\"example-box\"><div class=\"label\">The Bridge from Chapter 5 to Chapter 6</div><p class=\"math-line\"><strong>Simplifying fractions</strong> uses GCF: \\(\\tfrac{18}{24} \\div \\tfrac{6}{6} = \\tfrac{3}{4}\\), since \\(\\text{GCF}(18,24) = 6\\)</p><p class=\"math-line\"><strong>Finding common denominators</strong> uses LCM: to add \\(\\tfrac{1}{4} + \\tfrac{1}{6}\\), use \\(\\text{LCM}(4,6) = 12\\)</p><p class=\"math-line\"><strong>Recognizing equivalent fractions</strong> uses multiplicative identity: multiplying numerator and denominator by the same number = multiplying by 1</p></div><p>Students who struggle with fractions often have gaps in their factor and multiple fluency. As a future teacher, you can use fraction work as a natural motivation for revisiting number theory — and use number theory as advance preparation for what's coming in Chapter 6.</p>"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "How to Quickly Find All Prime Numbers (Sieve of Eratosthenes)",
+      "url": "https://www.youtube.com/watch?v=hPmFV6khvC4",
+      "description": "Dr. Howie Hua walks through the Sieve of Eratosthenes — the discovery-based method your textbook uses to help students find all primes from 1 to 100.",
+      "category": "primes-divisibility",
+      "relatedFaqs": ["faq-4", "faq-14"]
+    },
+    {
+      "id": "vid-2",
+      "title": "MfEST 2 Sec 4.1 Divisibility Tests Part 1",
+      "url": "https://www.youtube.com/watch?v=JXvf0ufUjrU",
+      "description": "Gary Parker introduces divisibility tests for 2, 3, 5, 6, and 9 in the context of the Math for Elementary School Teachers course — aligned directly with Section 5.1 of your textbook.",
+      "category": "primes-divisibility",
+      "relatedFaqs": ["faq-3", "faq-8"]
+    },
+    {
+      "id": "vid-3",
+      "title": "MfEST 2 Sec 4.1 Prime Factors and Factor Trees",
+      "url": "https://www.youtube.com/watch?v=UrTnvIiuVWA",
+      "description": "Gary Parker demonstrates prime factorization using factor trees, showing how every composite number breaks down into a unique product of primes — the Fundamental Theorem of Arithmetic in action.",
+      "category": "primes-divisibility",
+      "relatedFaqs": ["faq-5", "faq-4"]
+    },
+    {
+      "id": "vid-4",
+      "title": "MTH212 Section 4.1 Finding Prime Numbers",
+      "url": "https://www.youtube.com/watch?v=UBP1ybx73sA",
+      "description": "Gary Parker demonstrates strategies for determining whether a number is prime, including the Prime Factor Test (checking divisibility only up to the square root).",
+      "category": "primes-divisibility",
+      "relatedFaqs": ["faq-4", "faq-14"]
+    },
+    {
+      "id": "vid-5",
+      "title": "MfEST 2 Sec 4.2 GCF & LCM",
+      "url": "https://www.youtube.com/watch?v=Kc9UjOEYJJI",
+      "description": "Gary Parker covers both Greatest Common Factor and Least Common Multiple methods — set intersection and prime factorization — in the Math for Elementary School Teachers context.",
+      "category": "gcf-lcm",
+      "relatedFaqs": ["faq-6", "faq-10"]
+    },
+    {
+      "id": "vid-6",
+      "title": "The Euclidean Algorithm (GCF)",
+      "url": "https://www.youtube.com/watch?v=rOnw1CJZBaI",
+      "description": "Dr. Howie Hua explains the Euclidean Algorithm — the efficient repeated-division method for finding GCF featured in Section 5.2 of your textbook. Pay attention to the most common mistake on the final step.",
+      "category": "gcf-lcm",
+      "relatedFaqs": ["faq-11", "faq-6"]
+    },
+    {
+      "id": "vid-7",
+      "title": "A Cool Way to Find GCF and LCM at the Same Time",
+      "url": "https://www.youtube.com/watch?v=Js5ATEh-498",
+      "description": "Dr. Howie Hua shares an elegant method for finding GCF and LCM simultaneously — the \"just for fun\" bonus method highlighted at the end of Section 5.2.",
+      "category": "gcf-lcm",
+      "relatedFaqs": ["faq-6", "faq-10"]
+    },
+    {
+      "id": "vid-8",
+      "title": "MTH212 Homework 4.2 #20 Euclid GCF",
+      "url": "https://www.youtube.com/watch?v=ft5URCl9Zvo",
+      "description": "Gary Parker works through a GCF problem using the Euclidean Algorithm step by step — great for seeing how to avoid the most common mistake when the remainder reaches zero.",
+      "category": "gcf-lcm",
+      "relatedFaqs": ["faq-11", "faq-6"]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "GCF and LCM Explorer",
+      "url": "https://lcmgcfexplorer.netlify.app/",
+      "description": "An interactive tool built for Math 204 that lets you explore Greatest Common Factor and Least Common Multiple relationships visually. Enter any two numbers and see the prime factorizations, Venn diagram, and both results side by side.",
+      "relatedFaqs": ["faq-6", "faq-10", "faq-11", "faq-12"]
+    }
+  ],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Help Me Understand Prime vs. Composite",
+        "prompt": "I'm learning about prime and composite numbers in my Math for Elementary Teachers course. Can you help me understand the difference conceptually — not just the definitions, but why it matters and how to think about it? I want to understand it well enough to explain it to elementary students someday. Please start with a question or exploration rather than just telling me the answer."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Walk Me Through the Euclidean Algorithm",
+        "prompt": "I need to understand the Euclidean Algorithm for finding the GCF of two numbers. My textbook (Math for Elementary Teachers by Dr. Romero) explains it, but I want to make sure I really get it — especially the step where people most commonly make mistakes. Can you walk me through it step by step with an example, then give me one to try on my own, and check my work?"
+      },
+      {
+        "id": "prompt-3",
+        "title": "Why Do Divisibility Rules Work?",
+        "prompt": "I know the divisibility rules (for 2, 3, 5, 6, 9, etc.) but I just memorize them — I don't really understand why they work. Can you help me understand the mathematical reason behind at least two of them? I want to understand it deeply enough that I could explain the reasoning to a curious student who asks \"why?\""
+      },
+      {
+        "id": "prompt-4",
+        "title": "Debug My GCF vs. LCM Confusion",
+        "prompt": "I keep mixing up when to use GCF versus LCM when solving word problems. Can you give me three or four word problems — without telling me the answers yet — and let me decide whether each one needs GCF or LCM? Then give me feedback on my choices and help me build a better mental model for telling them apart."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect Number Theory to Fractions",
+        "prompt": "My Math for Elementary Teachers textbook says that number theory (factors, GCF, LCM) is the foundation for working with fractions. I want to understand exactly how they connect. Can you explain the specific ways that GCF and LCM show up when we simplify, compare, or add fractions — and help me see why a future elementary teacher needs to understand both deeply?"
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Explore Something You're Curious About",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Chapter 5 (Sections 5.1–5.2: The Foundations of Number Theory). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
+  }
+}
