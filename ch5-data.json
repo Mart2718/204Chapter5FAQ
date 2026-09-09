@@ -31,7 +31,7 @@
       "id": "faq-5",
       "category": "conceptual",
       "question": "What is the significance of prime factorization, and how does it connect to other mathematical concepts?",
-      "answer": "<p>Prime factorization is the mathematical equivalent of breaking a compound into its pure elements. The <strong>Fundamental Theorem of Arithmetic</strong> — a major theorem in Section 5.1 — guarantees that every whole number greater than 1 can be written as a product of primes in exactly one way (up to order of factors). The primes are the \"atoms\" of the whole numbers.</p><div class=\"example-box\"><div class=\"label\">Fundamental Theorem of Arithmetic (Section 5.1)</div><p class=\"math-line\">Every composite number has a unique prime factorization, regardless of the method used to find it.</p><p class=\"math-line\">Example: \\(48 = 2^4 \\times 3\\) — whether you use a factor tree starting with \\(6 \\times 8\\) or \\(4 \\times 12\\), you always arrive at the same prime factorization.</p></div><div class=\"example-box\"><div class=\"label\">Two Methods — Same Result (Section 5.1)</div><p class=\"math-line\"><strong>Factor trees:</strong> Split into factor pairs, keep splitting until all branches are prime.</p><p class=\"math-line\"><strong>Successive division:</strong> Divide by 2, then 3, then 5, … until the quotient is 1. E.g., \\(84 = 2^2 \\times 3 \\times 7\\).</p></div><p><strong>Why this matters for future teachers:</strong> Prime factorization is the engine behind GCF and LCM (SLO 5.3), simplifying fractions (Chapter 6), and eventually algebraic factoring. Students who understand prime factorization deeply simplify fractions fluently — students who don't, struggle with fractions for years.</p>"
+      "answer": "<p>Prime factorization is the mathematical equivalent of breaking a compound into its pure elements. The <strong>Fundamental Theorem of Arithmetic</strong> — a major theorem in Section 5.1 — guarantees that every whole number greater than 1 can be written as a product of primes in exactly one way (up to order of factors). The primes are the \"atoms\" of the whole numbers.</p><div class=\"example-box\"><div class=\"label\">Fundamental Theorem of Arithmetic (Section 5.1)</div><p class=\"math-line\">Every composite number has a unique prime factorization, regardless of the method used to find it.</p><p class=\"math-line\">Example: \\(48 = 2^4 \\times 3\\) — whether you use a factor tree starting with \\(6 \\times 8\\) or \\(4 \\times 12\\), you always arrive at the same prime factorization.</p></div><div class=\"example-box\"><div class=\"label\">Two Methods — Same Result (Section 5.1)</div><p class=\"math-line\"><strong>Factor trees:</strong> Split into factor pairs, keep splitting until all branches are prime.</p><p class=\"math-line\"><strong>Successive division:</strong> Divide by 2, then 3, then 5, … until the quotient is 1. E.g., \\(84 = 2^2 \\times 3 \\times 7\\).</p></div><p><strong>Why this matters for future teachers:</strong> Prime factorization is the engine behind GCF and LCM (SLO 5.3), simplifying fractions (Chapter 6), and eventually algebraic factoring. Students who understand prime factorization deeply simplify fractions fluently — students who don't, struggle with fractions for years.</p><div class=\"tip\"><p class=\"math-line\"><strong>Classroom connection:</strong> When a 5th grader reduces 8/12 to 2/3 by dividing both by 4, and a classmate reduces it by dividing by 2 then 2 again, they&rsquo;ve taken different paths to the identical answer &mdash; because the Fundamental Theorem of Arithmetic guarantees there&rsquo;s only one prime factorization underneath either path. Showing students that &ldquo;different methods, same unique answer&rdquo; isn&rsquo;t a coincidence but a theorem is what turns a fraction-simplifying rule into something they actually trust.</p></div>"
     },
     {
       "id": "faq-6",
@@ -107,7 +107,10 @@
       "url": "https://www.youtube.com/watch?v=hPmFV6khvC4",
       "description": "Dr. Howie Hua walks through the Sieve of Eratosthenes — the discovery-based method your textbook uses to help students find all primes from 1 to 100. Already embedded in Section 5.1 of your textbook (SLO 5.2).",
       "category": "primes-divisibility",
-      "relatedFaqs": ["faq-4", "faq-14"]
+      "relatedFaqs": [
+        "faq-4",
+        "faq-14"
+      ]
     },
     {
       "id": "vid-2",
@@ -115,7 +118,10 @@
       "url": "https://www.youtube.com/watch?v=JXvf0ufUjrU",
       "description": "Gary Parker introduces divisibility tests for 2, 3, 5, 6, and 9 in the Math for Elementary School Teachers context — showing both the rules and the base-ten reasoning behind them (SLO 5.1).",
       "category": "primes-divisibility",
-      "relatedFaqs": ["faq-3", "faq-8"]
+      "relatedFaqs": [
+        "faq-3",
+        "faq-8"
+      ]
     },
     {
       "id": "vid-3",
@@ -123,7 +129,10 @@
       "url": "https://www.youtube.com/watch?v=UrTnvIiuVWA",
       "description": "Gary Parker demonstrates prime factorization using factor trees — showing how every composite number breaks down into a unique product of primes, the Fundamental Theorem of Arithmetic in action (SLO 5.1).",
       "category": "primes-divisibility",
-      "relatedFaqs": ["faq-5", "faq-4"]
+      "relatedFaqs": [
+        "faq-5",
+        "faq-4"
+      ]
     },
     {
       "id": "vid-4",
@@ -131,7 +140,10 @@
       "url": "https://www.youtube.com/watch?v=UBP1ybx73sA",
       "description": "Gary Parker demonstrates strategies for determining whether a number is prime — including the Prime Factor Test (only check divisors up to \\(\\sqrt{n}\\)) that your textbook formalizes in Section 5.1 (SLO 5.2).",
       "category": "primes-divisibility",
-      "relatedFaqs": ["faq-4", "faq-9"]
+      "relatedFaqs": [
+        "faq-4",
+        "faq-9"
+      ]
     },
     {
       "id": "vid-5",
@@ -139,7 +151,10 @@
       "url": "https://www.youtube.com/watch?v=Kc9UjOEYJJI",
       "description": "Gary Parker covers both GCF and LCM using set intersection and prime factorization methods in the Math for Elementary School Teachers context — aligned with the Section 5.2 Wonder, Play, Grow scenarios (SLO 5.3).",
       "category": "gcf-lcm",
-      "relatedFaqs": ["faq-6", "faq-11"]
+      "relatedFaqs": [
+        "faq-6",
+        "faq-11"
+      ]
     },
     {
       "id": "vid-6",
@@ -147,7 +162,10 @@
       "url": "https://www.youtube.com/watch?v=rOnw1CJZBaI",
       "description": "Dr. Howie Hua explains the Euclidean Algorithm — already embedded in your Section 5.2 textbook page. Pay close attention to the most common mistake: it's the remainder (not the quotient) that goes in the next step (SLO 5.3).",
       "category": "gcf-lcm",
-      "relatedFaqs": ["faq-10", "faq-6"]
+      "relatedFaqs": [
+        "faq-10",
+        "faq-6"
+      ]
     },
     {
       "id": "vid-7",
@@ -155,7 +173,10 @@
       "url": "https://www.youtube.com/watch?v=Js5ATEh-498",
       "description": "Dr. Howie Hua shares the ladder method for finding GCF and LCM simultaneously — the \"just for fun\" bonus method from the end of Section 5.2. Also connects to Theorem 5.2.3: GCF × LCM = a × b (SLO 5.4).",
       "category": "gcf-lcm",
-      "relatedFaqs": ["faq-6", "faq-11"]
+      "relatedFaqs": [
+        "faq-6",
+        "faq-11"
+      ]
     },
     {
       "id": "vid-8",
@@ -163,7 +184,10 @@
       "url": "https://www.youtube.com/watch?v=ft5URCl9Zvo",
       "description": "Gary Parker works through a GCF problem using the Euclidean Algorithm — great for seeing the most common mistake (quotient vs. remainder) avoided in a worked example, and for watching the verification step in practice.",
       "category": "gcf-lcm",
-      "relatedFaqs": ["faq-10", "faq-6"]
+      "relatedFaqs": [
+        "faq-10",
+        "faq-6"
+      ]
     }
   ],
   "apps": [
@@ -172,7 +196,12 @@
       "title": "GCF and LCM Explorer",
       "url": "https://lcmgcfexplorer.netlify.app/",
       "description": "An interactive tool built specifically for Math 204 — enter any two numbers to see their prime factorizations side by side, a Venn diagram showing common factors, and both the GCF and LCM calculated simultaneously. Visual support for SLO 5.3 and 5.4.",
-      "relatedFaqs": ["faq-6", "faq-11", "faq-12", "faq-15"]
+      "relatedFaqs": [
+        "faq-6",
+        "faq-11",
+        "faq-12",
+        "faq-15"
+      ]
     }
   ],
   "prompts": {
